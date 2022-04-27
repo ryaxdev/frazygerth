@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 @codewithsadee
+ * copyright 2022 @klozecompany
  */
 
 
@@ -13,7 +13,7 @@
 /*-----------------------------------*\
  * #CUSTOM PROPERTY
 \*-----------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 :root {
 
   /**
@@ -139,6 +139,13 @@ body.active { overflow: hidden; }
 .h3 {
   color: var(--white);
   line-height: 1.2;
+}
+/*-----------------------------------*\
+ * #ICONO DE PERFIL
+\*-----------------------------------*/
+
+.logo p{
+  color: hsl(57, 97%, 45%);
 }
 
 .h1 { font-size: var(--fs-1); }
@@ -498,7 +505,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  background: url("../images/hero-bg.jpg") no-repeat;
+  background: url("https://www.themoviedb.org/t/p/original/fkKk4bLrzEEBusj8lRhV3MfurPA.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 750px;
@@ -588,7 +595,10 @@ body.active { overflow: hidden; }
   max-width: max-content;
 }
 
-.service-banner img { width: 100%; }
+.service-banner img {
+  width: 550px;
+  border-radius: 15px;
+}
 
 .service-btn {
   position: absolute;
@@ -941,7 +951,6 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .movie-detail {
-  background: url("../images/movie-detail-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 160px;
@@ -1335,7 +1344,20 @@ body.active { overflow: hidden; }
 
   .movies-list { grid-template-columns: repeat(3, 1fr); }
 
+  /* HERO XD */
 
+  .hero {
+  background: url("https://www.themoviedb.org/t/p/original/2ehh5arfVtswI2ixcazYcGLb0FE.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+  height: 100vh;
+  max-height: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-block: var(--section-padding);
+}
 
   /**
    * HEADER
